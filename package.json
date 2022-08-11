@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "start": "npm start"
+    "start": "next start -p $PORT"
   },
   "homepage": "http://ffmongare.github.io/kryptoc",
   "dependencies": {
